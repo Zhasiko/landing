@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laulap - Маркетплейс для блогеров и бизнеса</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-users"></i>
+                    <span>Laulap</span>
+                </div>
+                <div class="nav-content">
+                    <ul class="nav-menu">
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О проекте</a></li>
+                        <li><a href="#features">Преимущества</a></li>
+                        <li><a href="#how-it-works">Как это работает</a></li>
+                        <li><a href="#testimonials">Отзывы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <a href="https://t.me/laulap" target="_blank" class="btn btn-primary telegram-btn">
+                    <i class="fab fa-telegram"></i>
+                    Перейти в Telegram
+                </a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Объединяем <span class="gradient-text">блогеров</span> и <span class="gradient-text">бизнес</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Маркетплейс, который помогает инфлюенсерам найти постоянных партнеров, 
+                    а бизнесам — подходящих амбассадоров для продвижения товаров и услуг
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://t.me/laulap" target="_blank" class="btn btn-primary btn-large">
+                        <i class="fab fa-telegram"></i>
+                        Перейти в Telegram
+                    </a>
+                    <button class="btn btn-outline btn-large">
+                        <i class="fas fa-play"></i>
+                        Смотреть демо
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Активных блогеров</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Партнеров</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Успешных кампаний</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Рост конверсии</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-handshake"></i>
+                    <span>Долгосрочные партнерства</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-target"></i>
+                    <span>Точное таргетирование</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>О проекте</h2>
+                <p>Мы создаем экосистему, где каждый находит свое место</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Для блогеров и инфлюенсеров</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Постоянный доступ к брендам и рекламным кампаниям</li>
+                        <li><i class="fas fa-check"></i> Выбор проектов, которые соответствуют вашим ценностям</li>
+                        <li><i class="fas fa-check"></i> Прозрачные условия сотрудничества</li>
+                        <li><i class="fas fa-check"></i> Стабильный доход от долгосрочных партнерств</li>
+                    </ul>
+                </div>
+                <div class="about-text">
+                    <h3>Для бизнеса</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Эффективный поиск подходящих амбассадоров</li>
+                        <li><i class="fas fa-check"></i> Повышение доверия аудитории</li>
+                        <li><i class="fas fa-check"></i> Увеличение узнаваемости бренда</li>
+                        <li><i class="fas fa-check"></i> Рост конверсии и продаж</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Преимущества платформы</h2>
+                <p>Почему выбирают именно нас</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Умный поиск</h3>
+                    <p>AI-алгоритмы подбирают идеальные пары блогер-бренд на основе аудитории, ниши и целей</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Безопасность</h3>
+                    <p>Защищенные платежи, проверенные партнеры и гарантии выполнения обязательств</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Аналитика</h3>
+                    <p>Детальная отчетность по кампаниям, ROI и эффективности сотрудничества</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Экономия времени</h3>
+                    <p>Автоматизация процессов поиска, согласования и управления кампаниями</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Персональный менеджер</h3>
+                    <p>Индивидуальная поддержка и консультации для каждого участника платформы</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Мобильное приложение</h3>
+                    <p>Управляйте кампаниями и общайтесь с партнерами в любое время и в любом месте</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Как это работает</h2>
+                <p>Простой процесс в несколько шагов</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Регистрация</h3>
+                        <p>Создайте профиль, укажите свою нишу, аудиторию и предпочтения</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Поиск партнеров</h3>
+                        <p>Наша система автоматически подберет подходящих партнеров для сотрудничества</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Согласование</h3>
+                        <p>Обсудите детали кампании, условия и сроки через встроенный мессенджер</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Запуск кампании</h3>
+                        <p>Реализуйте проект и отслеживайте результаты в реальном времени</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Отзывы наших клиентов</h2>
+                <p>Что говорят о нас блогеры и бизнес</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Благодаря InfluenceHub я нашел постоянных партнеров, с которыми работаю уже больше года. Доход вырос в 3 раза!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Анна Петрова</h4>
+                            <span>Блогер, 500K подписчиков</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Платформа помогла нам найти идеальных амбассадоров для нашего бренда. Конверсия выросла на 40%!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Михаил Соколов</h4>
+                            <span>CEO, TechStart</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Очень удобный интерфейс и отличная поддержка. Рекомендую всем, кто хочет серьезно заниматься коллаборациями."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Елена Козлова</h4>
+                            <span>Инфлюенсер, 200K подписчиков</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Готовы начать сотрудничество?</h2>
+                <p>Присоединяйтесь к тысячам блогеров и бизнесов, которые уже работают с нами</p>
+                <div class="cta-buttons">
+                    <a href="https://t.me/laulap" target="_blank" class="btn btn-primary btn-large">
+                        <i class="fab fa-telegram"></i>
+                        Перейти в Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Свяжитесь с нами</h2>
+                <p>Есть вопросы? Мы всегда готовы помочь</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>zhassulanissayev@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>+7 (707) 418-36-44</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Адрес</h4>
+                            <p>Алматы, Демьянова 10</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Сообщение" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Отправить сообщение
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-users"></i>
+                        <span>Laulap</span>
+                    </div>
+                    <p>Объединяем блогеров и бизнес для взаимовыгодного сотрудничества</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Платформа</h4>
+                    <ul>
+                        <li><a href="#">Для блогеров</a></li>
+                        <li><a href="#">Для бизнеса</a></li>
+                        <li><a href="#">Тарифы</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Поддержка</h4>
+                    <ul>
+                        <li><a href="#">Помощь</a></li>
+                        <li><a href="#">Документация</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Статус системы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Карьера</a></li>
+                        <li><a href="#">Пресса</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Laulap. Все права защищены.</p>
+                <div class="footer-links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
