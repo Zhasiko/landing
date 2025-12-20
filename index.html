@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laulap - Маркетплейс для блогеров и бизнеса</title>
+    <title data-i18n="meta.title">Laulap - Маркетплейс для блогеров и бизнеса</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -19,18 +19,24 @@
                 </div>
                 <div class="nav-content">
                     <ul class="nav-menu">
-                        <li><a href="#home">Главная</a></li>
-                        <li><a href="#about">О проекте</a></li>
-                        <li><a href="#features">Преимущества</a></li>
-                        <li><a href="#how-it-works">Как это работает</a></li>
-                        <li><a href="#testimonials">Отзывы</a></li>
-                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#home" data-i18n="nav.home">Главная</a></li>
+                        <li><a href="#about" data-i18n="nav.about">О проекте</a></li>
+                        <li><a href="#features" data-i18n="nav.features">Преимущества</a></li>
+                        <li><a href="#how-it-works" data-i18n="nav.howItWorks">Как это работает</a></li>
+                        <li><a href="#testimonials" data-i18n="nav.testimonials">Отзывы</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">Контакты</a></li>
                     </ul>
                 </div>
+                <div class="header-actions">
+                    <div class="language-switcher">
+                        <button class="lang-btn active" data-lang="ru">RU</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
                     <a href="https://t.me/ReffShopBot" target="_blank" class="btn btn-primary telegram-btn">
                         <i class="fab fa-telegram"></i>
-                        Попробовать в Telegram
+                        <span data-i18n="nav.tryTelegram">Попробовать в Telegram</span>
                     </a>
+                </div>
                 <div class="hamburger">
                     <span></span>
                     <span></span>
@@ -45,16 +51,16 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    Объединяем <span class="gradient-text">блогеров</span> и <span class="gradient-text">бизнес</span>
+                    <span data-i18n="hero.title1">Объединяем</span> <span class="gradient-text" data-i18n="hero.title2">блогеров</span> <span data-i18n="hero.title3">и</span> <span class="gradient-text" data-i18n="hero.title4">бизнес</span>
                 </h1>
-                <p class="hero-subtitle">
+                <p class="hero-subtitle" data-i18n="hero.subtitle">
                     Маркетплейс, который помогает инфлюенсерам найти постоянных партнеров, 
                     а бизнесам — подходящих амбассадоров для продвижения товаров и услуг
                 </p>
                 <div class="hero-buttons">
                     <a href="https://t.me/ReffShopBot" target="_blank" class="btn btn-primary btn-large">
                         <i class="fab fa-telegram"></i>
-                        Попробовать в Telegram
+                        <span data-i18n="hero.tryTelegram">Попробовать в Telegram</span>
                     </a>
                     <!-- <button class="btn btn-outline btn-large">
                         <i class="fas fa-play"></i>
@@ -64,30 +70,30 @@
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-number">1000+</span>
-                        <span class="stat-label">Активных блогеров</span>
+                        <span class="stat-label" data-i18n="hero.stat1">Активных блогеров</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">500+</span>
-                        <span class="stat-label">Партнеров</span>
+                        <span class="stat-label" data-i18n="hero.stat2">Партнеров</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">95%</span>
-                        <span class="stat-label">Успешных кампаний</span>
+                        <span class="stat-label" data-i18n="hero.stat3">Успешных кампаний</span>
                     </div>
                 </div>
             </div>
             <div class="hero-image">
                 <div class="floating-card card-1">
                     <i class="fas fa-chart-line"></i>
-                    <span>Рост конверсии</span>
+                    <span data-i18n="hero.card1">Рост конверсии</span>
                 </div>
                 <div class="floating-card card-2">
                     <i class="fas fa-handshake"></i>
-                    <span>Долгосрочные партнерства</span>
+                    <span data-i18n="hero.card2">Долгосрочные партнерства</span>
                 </div>
                 <div class="floating-card card-3">
                     <i class="fas fa-target"></i>
-                    <span>Точное таргетирование</span>
+                    <span data-i18n="hero.card3">Точное таргетирование</span>
                 </div>
             </div>
         </div>
@@ -97,26 +103,26 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2>О проекте</h2>
-                <p>Мы создаем экосистему, где каждый находит свое место</p>
+                <h2 data-i18n="about.title">О проекте</h2>
+                <p data-i18n="about.subtitle">Мы создаем экосистему, где каждый находит свое место</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Для блогеров и инфлюенсеров</h3>
+                    <h3 data-i18n="about.bloggers.title">Для блогеров и инфлюенсеров</h3>
                     <ul>
-                        <li><i class="fas fa-check"></i> Постоянный доступ к брендам и рекламным кампаниям</li>
-                        <li><i class="fas fa-check"></i> Выбор проектов, которые соответствуют вашим ценностям</li>
-                        <li><i class="fas fa-check"></i> Прозрачные условия сотрудничества</li>
-                        <li><i class="fas fa-check"></i> Стабильный доход от долгосрочных партнерств</li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="about.bloggers.item1">Постоянный доступ к брендам и рекламным кампаниям</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="about.bloggers.item2">Выбор проектов, которые соответствуют вашим ценностям</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="about.bloggers.item3">Прозрачные условия сотрудничества</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="about.bloggers.item4">Стабильный доход от долгосрочных партнерств</span></li>
                     </ul>
                 </div>
                 <div class="about-text">
-                    <h3>Для бизнеса</h3>
+                    <h3 data-i18n="about.business.title">Для бизнеса</h3>
                     <ul>
-                        <li><i class="fas fa-check"></i> Эффективный поиск подходящих амбассадоров</li>
-                        <li><i class="fas fa-check"></i> Повышение доверия аудитории</li>
-                        <li><i class="fas fa-check"></i> Увеличение узнаваемости бренда</li>
-                        <li><i class="fas fa-check"></i> Рост конверсии и продаж</li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="about.business.item1">Эффективный поиск подходящих амбассадоров</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="about.business.item2">Повышение доверия аудитории</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="about.business.item3">Увеличение узнаваемости бренда</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="about.business.item4">Рост конверсии и продаж</span></li>
                     </ul>
                 </div>
             </div>
@@ -127,51 +133,51 @@
     <section id="features" class="features">
         <div class="container">
             <div class="section-header">
-                <h2>Преимущества платформы</h2>
-                <p>Почему выбирают именно нас</p>
+                <h2 data-i18n="features.title">Преимущества платформы</h2>
+                <p data-i18n="features.subtitle">Почему выбирают именно нас</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-search"></i>
                     </div>
-                    <h3>Умный поиск</h3>
-                    <p>AI-алгоритмы подбирают идеальные пары блогер-бренд на основе аудитории, ниши и целей</p>
+                    <h3 data-i18n="features.item1.title">Умный поиск</h3>
+                    <p data-i18n="features.item1.desc">AI-алгоритмы подбирают идеальные пары блогер-бренд на основе аудитории, ниши и целей</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Безопасность</h3>
-                    <p>Защищенные платежи, проверенные партнеры и гарантии выполнения обязательств</p>
+                    <h3 data-i18n="features.item2.title">Безопасность</h3>
+                    <p data-i18n="features.item2.desc">Защищенные платежи, проверенные партнеры и гарантии выполнения обязательств</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-chart-bar"></i>
                     </div>
-                    <h3>Аналитика</h3>
-                    <p>Детальная отчетность по кампаниям, ROI и эффективности сотрудничества</p>
+                    <h3 data-i18n="features.item3.title">Аналитика</h3>
+                    <p data-i18n="features.item3.desc">Детальная отчетность по кампаниям, ROI и эффективности сотрудничества</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-clock"></i>
                     </div>
-                    <h3>Экономия времени</h3>
-                    <p>Автоматизация процессов поиска, согласования и управления кампаниями</p>
+                    <h3 data-i18n="features.item4.title">Экономия времени</h3>
+                    <p data-i18n="features.item4.desc">Автоматизация процессов поиска, согласования и управления кампаниями</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-users-cog"></i>
                     </div>
-                    <h3>Персональный менеджер</h3>
-                    <p>Индивидуальная поддержка и консультации для каждого участника платформы</p>
+                    <h3 data-i18n="features.item5.title">Персональный менеджер</h3>
+                    <p data-i18n="features.item5.desc">Индивидуальная поддержка и консультации для каждого участника платформы</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
-                    <h3>Мобильное приложение</h3>
-                    <p>Управляйте кампаниями и общайтесь с партнерами в любое время и в любом месте</p>
+                    <h3 data-i18n="features.item6.title">Мобильное приложение</h3>
+                    <p data-i18n="features.item6.desc">Управляйте кампаниями и общайтесь с партнерами в любое время и в любом месте</p>
                 </div>
             </div>
         </div>
@@ -181,36 +187,36 @@
     <section id="how-it-works" class="how-it-works">
         <div class="container">
             <div class="section-header">
-                <h2>Как это работает</h2>
-                <p>Простой процесс в несколько шагов</p>
+                <h2 data-i18n="howItWorks.title">Как это работает</h2>
+                <p data-i18n="howItWorks.subtitle">Простой процесс в несколько шагов</p>
             </div>
             <div class="steps">
                 <div class="step">
                     <div class="step-number">1</div>
                     <div class="step-content">
-                        <h3>Регистрация</h3>
-                        <p>Создайте профиль, укажите свою нишу, аудиторию и предпочтения</p>
+                        <h3 data-i18n="howItWorks.step1.title">Регистрация</h3>
+                        <p data-i18n="howItWorks.step1.desc">Создайте профиль, укажите свою нишу, аудиторию и предпочтения</p>
                     </div>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
                     <div class="step-content">
-                        <h3>Поиск партнеров</h3>
-                        <p>Наша система автоматически подберет подходящих партнеров для сотрудничества</p>
+                        <h3 data-i18n="howItWorks.step2.title">Поиск партнеров</h3>
+                        <p data-i18n="howItWorks.step2.desc">Наша система автоматически подберет подходящих партнеров для сотрудничества</p>
                     </div>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
                     <div class="step-content">
-                        <h3>Согласование</h3>
-                        <p>Обсудите детали кампании, условия и сроки через встроенный мессенджер</p>
+                        <h3 data-i18n="howItWorks.step3.title">Согласование</h3>
+                        <p data-i18n="howItWorks.step3.desc">Обсудите детали кампании, условия и сроки через встроенный мессенджер</p>
                     </div>
                 </div>
                 <div class="step">
                     <div class="step-number">4</div>
                     <div class="step-content">
-                        <h3>Запуск кампании</h3>
-                        <p>Реализуйте проект и отслеживайте результаты в реальном времени</p>
+                        <h3 data-i18n="howItWorks.step4.title">Запуск кампании</h3>
+                        <p data-i18n="howItWorks.step4.desc">Реализуйте проект и отслеживайте результаты в реальном времени</p>
                     </div>
                 </div>
             </div>
@@ -221,13 +227,13 @@
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2>Отзывы наших клиентов</h2>
-                <p>Что говорят о нас блогеры и бизнес</p>
+                <h2 data-i18n="testimonials.title">Отзывы наших клиентов</h2>
+                <p data-i18n="testimonials.subtitle">Что говорят о нас блогеры и бизнес</p>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"Благодаря InfluenceHub я нашел постоянных партнеров, с которыми работаю уже больше года. Доход вырос в 3 раза!"</p>
+                        <p data-i18n="testimonials.item1.text">"Благодаря InfluenceHub я нашел постоянных партнеров, с которыми работаю уже больше года. Доход вырос в 3 раза!"</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
@@ -235,13 +241,13 @@
                         </div>
                         <div class="author-info">
                             <h4>Анна Петрова</h4>
-                            <span>Блогер, 500K подписчиков</span>
+                            <span data-i18n="testimonials.item1.author">Блогер, 500K подписчиков</span>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"Платформа помогла нам найти идеальных амбассадоров для нашего бренда. Конверсия выросла на 40%!"</p>
+                        <p data-i18n="testimonials.item2.text">"Платформа помогла нам найти идеальных амбассадоров для нашего бренда. Конверсия выросла на 40%!"</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
@@ -249,13 +255,13 @@
                         </div>
                         <div class="author-info">
                             <h4>Михаил Соколов</h4>
-                            <span>CEO, TechStart</span>
+                            <span data-i18n="testimonials.item2.author">CEO, TechStart</span>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"Очень удобный интерфейс и отличная поддержка. Рекомендую всем, кто хочет серьезно заниматься коллаборациями."</p>
+                        <p data-i18n="testimonials.item3.text">"Очень удобный интерфейс и отличная поддержка. Рекомендую всем, кто хочет серьезно заниматься коллаборациями."</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
@@ -263,7 +269,7 @@
                         </div>
                         <div class="author-info">
                             <h4>Елена Козлова</h4>
-                            <span>Инфлюенсер, 200K подписчиков</span>
+                            <span data-i18n="testimonials.item3.author">Инфлюенсер, 200K подписчиков</span>
                         </div>
                     </div>
                 </div>
@@ -275,12 +281,12 @@
     <section class="cta">
         <div class="container">
             <div class="cta-content">
-                <h2>Готовы начать сотрудничество?</h2>
-                <p>Присоединяйтесь к тысячам блогеров и бизнесов, которые уже работают с нами</p>
+                <h2 data-i18n="cta.title">Готовы начать сотрудничество?</h2>
+                <p data-i18n="cta.subtitle">Присоединяйтесь к тысячам блогеров и бизнесов, которые уже работают с нами</p>
                 <div class="cta-buttons">
                     <a href="https://t.me/ReffShopBot" target="_blank" class="btn btn-primary btn-large">
                         <i class="fab fa-telegram"></i>
-                        Попробовать в Telegram
+                        <span data-i18n="cta.button">Попробовать в Telegram</span>
                     </a>
                 </div>
             </div>
@@ -291,46 +297,46 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2>Свяжитесь с нами</h2>
-                <p>Есть вопросы? Мы всегда готовы помочь</p>
+                <h2 data-i18n="contact.title">Свяжитесь с нами</h2>
+                <p data-i18n="contact.subtitle">Есть вопросы? Мы всегда готовы помочь</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>Email</h4>
+                            <h4 data-i18n="contact.emailLabel">Email</h4>
                             <p>zhassulanissayev@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h4>Телефон</h4>
+                            <h4 data-i18n="contact.phoneLabel">Телефон</h4>
                             <p>+7 (707) 418-36-44</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>Адрес</h4>
+                            <h4 data-i18n="contact.addressLabel">Адрес</h4>
                             <p>Алматы, Демьянова 10</p>
                         </div>
                     </div>
                 </div>
                 <form class="contact-form">
                     <div class="form-group">
-                        <input type="text" name="name" placeholder="Ваше имя" required autocomplete="name">
+                        <input type="text" name="name" data-i18n-placeholder="contact.form.name" placeholder="Ваше имя" required autocomplete="name">
                     </div>
                     <div class="form-group">
-                        <input type="email" name="email" placeholder="Email" required autocomplete="email">
+                        <input type="email" name="email" data-i18n-placeholder="contact.form.email" placeholder="Email" required autocomplete="email">
                     </div>
                     <div class="form-group">
-                        <textarea name="message" placeholder="Сообщение" rows="5" required></textarea>
+                        <textarea name="message" data-i18n-placeholder="contact.form.message" placeholder="Сообщение" rows="5" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">
                         <i class="fas fa-paper-plane"></i>
-                        Отправить сообщение
+                        <span data-i18n="contact.form.submit">Отправить сообщение</span>
                     </button>
                 </form>
             </div>
@@ -346,7 +352,7 @@
                         <i class="fas fa-users"></i>
                         <span>Laulap</span>
                     </div>
-                    <p>Объединяем блогеров и бизнес для взаимовыгодного сотрудничества</p>
+                    <p data-i18n="footer.description">Объединяем блогеров и бизнес для взаимовыгодного сотрудничества</p>
                     <div class="social-links">
                         <a href="https://t.me/zhassulan_02" target="_blank"><i class="fab fa-telegram"></i></a>
                         <a href="#"><i class="fab fa-vk"></i></a>
@@ -355,25 +361,25 @@
                     </div>
                 </div>
                 <div class="footer-section">
-                    <h4>Платформа</h4>
+                    <h4 data-i18n="footer.platform.title">Платформа</h4>
                     <ul>
-                        <li><a href="#about">Для блогеров</a></li>
-                        <li><a href="#about">Для бизнеса</a></li>
-                        <li><a href="#features">Преимущества</a></li>
-                        <li><a href="#how-it-works">Как это работает</a></li>
+                        <li><a href="#about" data-i18n="footer.platform.bloggers">Для блогеров</a></li>
+                        <li><a href="#about" data-i18n="footer.platform.business">Для бизнеса</a></li>
+                        <li><a href="#features" data-i18n="footer.platform.features">Преимущества</a></li>
+                        <li><a href="#how-it-works" data-i18n="footer.platform.howItWorks">Как это работает</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Поддержка</h4>
+                    <h4 data-i18n="footer.support.title">Поддержка</h4>
                     <ul>
-                        <li><a href="https://t.me/zhassulan_02" target="_blank">Помощь</a></li>
-                        <li><a href="#contact">Контакты</a></li>
-                        <li><a href="#testimonials">Отзывы</a></li>
-                        <li><a href="mailto:zhassulanissayev@gmail.com">Email поддержка</a></li>
+                        <li><a href="https://t.me/zhassulan_02" target="_blank" data-i18n="footer.support.help">Помощь</a></li>
+                        <li><a href="#contact" data-i18n="footer.support.contact">Контакты</a></li>
+                        <li><a href="#testimonials" data-i18n="footer.support.testimonials">Отзывы</a></li>
+                        <li><a href="mailto:zhassulanissayev@gmail.com" data-i18n="footer.support.email">Email поддержка</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Контакты</h4>
+                    <h4 data-i18n="footer.contacts.title">Контакты</h4>
                     <ul>
                         <li><a href="https://t.me/zhassulan_02" target="_blank">Telegram</a></li>
                         <li><a href="mailto:zhassulanissayev@gmail.com">Email</a></li>
@@ -383,15 +389,16 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Laulap. Все права защищены.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 Laulap. Все права защищены.</p>
                 <div class="footer-links">
-                    <a href="#">Политика конфиденциальности</a>
-                    <a href="#">Условия использования</a>
+                    <a href="#" data-i18n="footer.privacy">Политика конфиденциальности</a>
+                    <a href="#" data-i18n="footer.terms">Условия использования</a>
                 </div>
             </div>
         </div>
     </footer>
 
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
